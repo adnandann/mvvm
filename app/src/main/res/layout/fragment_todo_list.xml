@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/content_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/action_create"
+        android:padding="5dp"/>
+
+    <TextView
+        android:id="@+id/action_create"
+        android:layout_width="200dp"
+        android:layout_height="45dp"
+        android:text="Create item"
+        android:textAllCaps="true"
+        android:gravity="center"
+        android:layout_margin="20dp"
+        android:textSize="18sp"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/round_outline_green"/>
+
+</RelativeLayout>

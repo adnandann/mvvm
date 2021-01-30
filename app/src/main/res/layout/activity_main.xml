@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".activity.MainActivity">
+
+    <TextView
+        android:id="@+id/action_room"
+        android:text="Todo app with Room and ViewModel!"
+        style="@style/main_item_style" />
+
+    <TextView
+        android:id="@+id/action_sqlite"
+        android:text="Todo app with SQLite and ViewModel!"
+        style="@style/main_item_style" />
+
+    <TextView
+        android:id="@+id/action_simple"
+        android:text="Todo app with ViewModel, without database!"
+        style="@style/main_item_style" />
+
+</LinearLayout>
